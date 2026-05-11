@@ -1,0 +1,457 @@
+timestamp,device_ip,log_id,message
+,,,=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2025.09.17 14:39:37 =~=~=~=~=~=~=~=~=~=~=~=
+,,,sh logg
+,,,"Syslog logging: enabled (0 messages dropped, 2 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)"
+,,,No Active Message Discriminator.
+,,,No Inactive Message Discriminator.
+,,,Console logging: disabled
+,,,"Monitor logging: level debugging, 0 messages logged, xml disabled,"
+,,,filtering disabled
+,,,"Buffer logging:  level debugging, 418 messages logged, xml disabled,"
+,,,filtering disabled
+,,,Exception Logging: size (4096 bytes)
+,,,Count and timestamp logging messages: disabled
+,,,File logging: disabled
+,,,Persistent logging: disabled
+,,,No active filter modules.
+,,,"Trap logging: level informational, 416 message lines logged"
+,,,"Logging to 192.168.14.40  (udp port 514, audit disabled,"
+,,,"link up),"
+,,,"414 message lines logged,"
+,,,"0 message lines rate-limited,"
+,,,"0 message lines dropped-by-MD,"
+,,,"xml disabled, sequence number disabled"
+,,,filtering disabled
+,,,"Logging to 192.168.13.40  (udp port 514, audit disabled,"
+,,,"link up),"
+,,,"148 message lines logged,"
+,,,"0 message lines rate-limited,"
+,,,"0 message lines dropped-by-MD,"
+,,,"xml disabled, sequence number disabled"
+,,,filtering disabled
+,,,Logging Source-Interface:       VRF Name:
+,,,Log Buffer (102400 bytes):
+,,,*Aug 16 16:46:16.096: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+,,,*Aug 16 16:46:18.752: %SMART_LIC-6-AGENT_READY: Smart Agent for Licensing is initialized
+,,,*Aug 16 16:46:18.752: %SMART_LIC-6-AGENT_ENABLED: Smart Agent for Licensing is enabled
+,,,*Aug 16 16:46:18.752: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowedRA Tracing tool registry return: 0
+,,,*Aug 16 16:46:22.313: BFD: brace register success
+,,,*Aug 16 16:46:22.814: %CRYPTO-4-AUDITWARN: Encryption audit check could not be performed
+,,,*Aug 16 16:46:22.814: %CRYPTO_ENGINE-4-CSDL_COMPLIANCE_DISABLED: Cisco PSB security compliance has been disabled
+,,,*Aug 16 16:46:22.824: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+,,,"*Aug 16 16:46:23.119: %LINK-3-UPDOWN: Interface Lsmpi10/3, changed state to up"
+,,,"*Aug 16 16:46:23.119: %LINK-3-UPDOWN: Interface EOBC10/1, changed state to up"
+,,,"*Aug 16 16:46:23.119: %LINEPROTO-5-UPDOWN: Line protocol on Interface LI-Null0, changed state to up"
+,,,*Aug 16 16:46:23.187: %SYS-3-HARIKARI: Process pki_app top-level routine exited
+,,,*Aug 16 16:46:23.228: %PNP-6-PNP_DISCOVERY_STARTED: PnP Discovery started
+,,,*Aug 16 16:45:33.595: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 1 R0/0: stack_mgr: Stack port 2 on Chassis 1 is cable-not-connected
+,,,*Aug 16 16:45:33.595: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 1 R0/0: stack_mgr: Stack port 1 on Chassis 1 is down
+,,,*Aug 16 16:45:52.582: %NIF_MGR-6-PORT_LINK_UP: Chassis 1 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 is UP.
+,,,*Aug 16 16:45:52.582: %NIF_MGR-6-PORT_CONN_PENDING: Chassis 1 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 connection is PENDING.
+,,,*Aug 16 16:45:57.585: %NIF_MGR-6-PORT_CONNECTION_STATUS_CHANGE: Chassis 1 R0/0: nif_mgr: PORT:FortyGigabitEthernet Port 27 changed state from Pending to Ready.
+,,,*Aug 16 16:45:57.586: %NIF_MGR-6-PORT_CONN_READY: Chassis 1 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 connection is READY.
+,,,*Aug 16 16:45:57.586: %NIF_MGR-6-STACK_LINK_UP: Chassis 1 R0/0: nif_mgr: Front side stack link 0 is UP.
+,,,*Aug 16 16:45:57.586: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 1 R0/0: stack_mgr: Stack port 1 on Chassis 1 is up
+,,,*Aug 16 16:46:02.591: %STACKMGR-6-CHASSIS_ADDED: Chassis 1 R0/0: stack_mgr: Chassis 1 has been added to the stack.
+,,,*Aug 16 16:46:04.108: %STACKMGR-6-CHASSIS_ADDED: Chassis 1 R0/0: stack_mgr: Chassis 1 has been added to the stack.
+,,,*Aug 16 16:46:06.109: %STACKMGR-6-CHASSIS_ADDED: Chassis 1 R0/0: stack_mgr: Chassis 1 has been added to the stack.
+,,,*Aug 16 16:46:06.109: %STACKMGR-6-ACTIVE_ELECTED: Chassis 1 R0/0: stack_mgr: Chassis 1 has been elected ACTIVE.
+,,,*Aug 20 01:46:53.404: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 2 R0/0: stack_mgr: Stack port 2 on Chassis 2 is cable-not-connected
+,,,*Aug 20 01:46:53.404: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 2 R0/0: stack_mgr: Stack port 1 on Chassis 2 is down
+,,,*Aug 20 01:47:14.714: %NIF_MGR-6-PORT_LINK_UP: Chassis 2 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 is UP.
+,,,*Aug 20 01:47:14.714: %NIF_MGR-6-PORT_CONN_PENDING: Chassis 2 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 connection is PENDING.
+,,,*Aug 20 01:47:20.401: %NIF_MGR-6-PORT_CONNECTION_STATUS_CHANGE: Chassis 2 R0/0: nif_mgr: PORT:FortyGigabitEthernet Port 27 changed state from Pending to Ready.
+,,,*Aug 20 01:47:20.401: %NIF_MGR-6-PORT_CONN_READY: Chassis 2 R0/0: nif_mgr: FortyGigabitEthernet Port 27 on front side stack link 0 connection is READY.
+,,,*Aug 20 01:47:20.401: %NIF_MGR-6-STACK_LINK_UP: Chassis 2 R0/0: nif_mgr: Front side stack link 0 is UP.
+,,,*Aug 20 01:47:20.402: %STACKMGR-6-STACK_LINK_CHANGE: Chassis 2 R0/0: stack_mgr: Stack port 1 on Chassis 2 is up
+,,,*Aug 20 01:47:24.846: %STACKMGR-6-CHASSIS_ADDED: Chassis 2 R0/0: stack_mgr: Chassis 1 has been added to the stack.
+,,,*Aug 20 01:47:26.356: %STACKMGR-6-CHASSIS_ADDED: Chassis 2 R0/0: stack_mgr: Chassis 1 has been added to the stack.
+,,,*Aug 20 01:47:28.398: %STACKMGR-6-CHASSIS_ADDED: Chassis 2 R0/0: stack_mgr: Chassis 2 has been added to the stack.
+,,,*Aug 20 01:47:28.398: %STACKMGR-6-ACTIVE_ELECTED: Chassis 2 R0/0: stack_mgr: Chassis 1 has been elected ACTIVE.
+,,,*Aug 16 16:46:23.268: %SMART_LIC-6-HA_ROLE_CHANGED: Smart Agent HA role changed to Active.
+,,,*Aug 16 16:46:23.634: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+,,,"*Aug 16 16:46:23.865: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-vrf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001"
+,,,"*Aug 16 16:46:23.868: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to down"
+,,,"*Aug 16 16:46:23.868: %LINK-3-UPDOWN: Interface LIIN10/2, changed state to up"
+,,,"*Aug 16 16:46:23.869: %LINK-5-CHANGED: Interface Bluetooth0/4, changed state to administratively down"
+,,,*Aug 16 16:46:23.869: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+,,,"*Aug 16 16:46:23.877: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-vrf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001"
+,,,*Aug 16 16:46:23.878: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+,,,*Aug 16 16:46:23.983: %ONEP_BASE-6-SS_ENABLED: ONEP: Service set Base was enabled by Default
+,,,"*Aug 16 16:46:24.118: %LINEPROTO-5-UPDOWN: Line protocol on Interface Lsmpi10/3, changed state to up"
+,,,"*Aug 16 16:46:24.119: %LINEPROTO-5-UPDOWN: Line protocol on Interface EOBC10/1, changed state to up"
+,,,"*Aug 16 16:46:24.441: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down"
+,,,"*Aug 16 16:46:24.868: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down"
+,,,"*Aug 16 16:46:24.870: %LINEPROTO-5-UPDOWN: Line protocol on Interface LIIN10/2, changed state to up"
+,,,"*Aug 16 16:46:24.870: %LINEPROTO-5-UPDOWN: Line protocol on Interface Bluetooth0/4, changed state to down"
+,,,*Aug 16 16:46:25.489: %SYS-7-NVRAM_INIT_WAIT_TIME: Waited 0 seconds for NVRAM to be available
+,,,*Aug 16 16:46:25.643: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named TP-self-signed-1576238526 has been generated or imported by crypto config
+,,,*Aug 16 16:46:25.646: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named RD01AGFLB1R25S01.raza.com.sa has been generated or imported by crypto config
+,,,*Aug 16 16:46:25.647: %SNMP-6-AUTHPROTOCOLMD5: Authentication protocol md5 support will be deprecated in future
+,,,*Aug 16 16:46:25.647: %SNMP-6-PRIVPROTOCOLDES: Privacy protocol des support will be deprecated in future
+,,,*Aug 16 16:46:25.650: %SYS-6-PRIVCFG_DECRYPT_SUCCESS: Successfully apply the private config file
+,,,*Aug 16 16:46:25.712: %CNS IQ:0.1 ID:0 Changed:[RD01AGFLB1R25S01]
+,,,*Aug 16 16:46:25.712: %CNS IQ:0.2 ID:1 Changed:[RD01AGFLB1R25S01]
+,,,*Aug 16 16:46:25.712: %CNS IQ:0.3 ID:2 Changed:[RD01AGFLB1R25S01]
+,,,*Aug 16 16:46:25.722: %SYS-5-LOG_CONFIG_CHANGE: Console logging disabled
+,,,"*Aug 16 16:46:25.735: %SYS-6-CLOCKUPDATE: System clock has been updated from 16:46:25 UTC Sat Aug 16 2025 to 19:46:25 KSA Sat Aug 16 2025, configured from console by vty0."
+,,,*Aug 16 16:46:25.778: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: TP-self-signed-1576238526 created succesfully
+,,,*Aug 16 16:46:25.810: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: SLA-TrustPoint created succesfully
+,,,"*Aug 16 16:46:25.908: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up"
+,,,*Aug 16 16:46:26.234: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.14.40 port 0 CLI Request Triggered
+,,,"*Aug 16 16:46:26.449: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 7 password. However, type 7 passwords will soon be deprecated. Migrate to a supported password type"
+,,,"*Aug 16 16:46:26.449: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 7 password. However, type 7 passwords will soon be deprecated. Migrate to a supported password type"
+,,,"*Aug 16 16:46:26.449: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 7 password. However, type 7 passwords will soon be deprecated. Migrate to a supported password type"
+,,,"*Aug 16 16:46:26.450: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 7 password. However, type 7 passwords will soon be deprecated. Migrate to a supported password type"
+,,,*Aug 16 16:46:26.480: %SW_VLAN-6-VTP_DOMAIN_NAME_CHG: VTP domain name changed to RIC.
+,,,*Aug 16 16:46:26.504: %SYS-5-CONFIG_I: Configured from memory by console
+,,,*Aug 16 16:46:26.547: %SYS-5-CONFIG_P: Configured programmatically by process CPP MQC QoS Policy manager from console as vty1
+,,,"*Aug 16 16:46:26.550: %IOSXE_OIR-6-REMSPA: SPA removed from chassis 1 subslot 1/0, interfaces disabled"
+,,,"*Aug 16 16:46:26.551: %IOSXE_OIR-6-REMSPA: SPA removed from chassis 2 subslot 1/0, interfaces disabled"
+,,,*Aug 16 16:46:26.562: %SPA_OIR-6-OFFLINECARD: SPA (C9500-24Y4C) offline in chassis 1 subslot 1/0
+,,,*Aug 16 16:46:26.571: %SPA_OIR-6-OFFLINECARD: SPA (C9500-24Y4C) offline in chassis 2 subslot 1/0
+,,,*Aug 16 16:46:26.574: %IOSXE_OIR-6-INSCARD: Card (fp) inserted in chassis 1 slot F0
+,,,*Aug 16 16:46:26.574: %IOSXE_OIR-6-ONLINECARD: Card (fp) online in chassis 1 slot F0
+,,,*Aug 16 16:46:26.575: %IOSXE_OIR-6-INSCARD: Card (cc) inserted in chassis 1 slot 1
+,,,*Aug 16 16:46:26.575: %IOSXE_OIR-6-ONLINECARD: Card (cc) online in chassis 1 slot 1
+,,,*Aug 16 16:46:26.583: %IOSXE_OIR-6-INSCARD: Card (fp) inserted in chassis 2 slot F0
+,,,*Aug 16 16:46:26.583: %IOSXE_OIR-6-ONLINECARD: Card (fp) online in chassis 2 slot F0
+,,,*Aug 16 16:46:26.584: %IOSXE_OIR-6-INSCARD: Card (cc) inserted in chassis 2 slot 1
+,,,*Aug 16 16:46:26.584: %IOSXE_OIR-6-ONLINECARD: Card (cc) online in chassis 2 slot 1
+,,,*Aug 16 16:46:26.651: %IOSXE_OIR-6-INSSPA: SPA inserted in chassis 1 subslot 1/0
+,,,*Aug 16 16:46:26.652: %IOSXE_OIR-6-INSSPA: SPA inserted in chassis 2 subslot 1/0
+,,,*Aug 16 16:46:26.877: %SSH-5-ENABLED: SSH 2.0 has been enabled
+,,,*Aug 16 16:46:26.931: %SYS-5-RESTART: System restarted --
+,,,"Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.1, RELEASE SOFTWARE (fc5)"
+,,,Technical Support: http://www.cisco.com/techsupport
+,,,"Copyright (c) 1986-2020 by Cisco Systems, Inc."
+,,,Compiled Fri 07-Aug-20 21:32 by mcpre
+,,,*Aug 16 16:46:26.993: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.14.40 port 514 started - CLI initiated
+,,,*Aug 16 16:46:27.423: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+,,,*Aug 16 16:46:27.423: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+,,,*Aug 16 16:46:27.423: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+,,,*Aug 16 16:46:27.423: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+,,,*Aug 16 16:46:27.925: %PIM-5-DRCHG: DR change from neighbor 0.0.0.0 to 60.60.60.39 on interface Loopback0
+,,,"*Aug 16 16:46:28.216: %LINK-5-CHANGED: Interface Vlan1, changed state to administratively down"
+,,,"*Aug 16 16:46:28.559: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/1, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/3, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/4, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/5, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/6, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/7, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/9, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/10, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/11, changed state to down"
+,,,"*Aug 16 16:46:28.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/12, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/13, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/18, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/22, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/23, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/24, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface HundredGigE1/0/25, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface HundredGigE1/0/26, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface HundredGigE1/0/27, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface HundredGigE1/0/28, changed state to down"
+,,,"*Aug 16 16:46:28.561: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/1, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/2, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/3, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/4, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/5, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/6, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/7, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/8, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/9, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/10, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/21, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/22, changed state to down"
+,,,"*Aug 16 16:46:28.567: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/23, changed state to down"
+,,,"*Aug 16 16:46:28.568: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/24, changed state to down"
+,,,"*Aug 16 16:46:28.568: %LINK-3-UPDOWN: Interface HundredGigE2/0/25, changed state to down"
+,,,"*Aug 16 16:46:28.568: %LINK-3-UPDOWN: Interface HundredGigE2/0/26, changed state to down"
+,,,"*Aug 16 16:46:28.568: %LINK-3-UPDOWN: Interface HundredGigE2/0/27, changed state to down"
+,,,"*Aug 16 16:46:28.568: %LINK-3-UPDOWN: Interface HundredGigE2/0/28, changed state to down"
+,,,*Aug 16 16:46:28.589: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named TP-self-signed-1576238526.server has been generated or imported by crypto-engine
+,,,*Aug 16 16:46:28.858: %SNMP-5-COLDSTART: SNMP agent on host RD01AGFLB1R25S01 is undergoing a cold start
+,,,"*Aug 16 16:46:32.789: %PNP-6-PNP_GOOD_UDI_UPDATE: Good UDI [PID:C9500-24Y4C,VID:,SN:FDO25040EQ5] identified via (platform-registry)"
+,,,"*Aug 16 16:46:32.789: %PNP-6-PNP_CDP_UPDATE: Device UDI [PID:C9500-24Y4C,VID:,SN:FDO25040EQ5] identified for CDP"
+,,,*Aug 16 16:46:32.789: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+,,,"*Aug 16 16:46:42.901: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained."
+,,,*Aug 16 16:46:42.907: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY created succesfully
+,,,*Aug 16 16:46:42.913: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI_LEGACY has been generated or imported by pki-sudi
+,,,*Aug 16 16:46:42.927: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY0 created succesfully
+,,,*Aug 16 16:46:42.928: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI created succesfully
+,,,*Aug 16 16:46:42.933: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI has been generated or imported by pki-sudi
+,,,*Aug 16 16:46:42.959: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI0 created succesfully
+,,,*Aug 16 16:46:56.706: %IOSXE_REDUNDANCY-6-PEER: Active detected switch 2 as standby.
+,,,*Aug 16 16:46:56.703: %STACKMGR-6-STANDBY_ELECTED: Chassis 1 R0/0: stack_mgr: Chassis 2 has been elected STANDBY.
+,,,*Aug 16 16:46:57.975: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+,,,*Aug 16 16:46:57.975: %CALL_HOME-6-CALL_HOME_ENABLED: Call-home is enabled by Smart Agent for Licensing.
+,,,*Aug 16 16:47:01.674: %REDUNDANCY-5-PEER_MONITOR_EVENT: Active detected a standby insertion (raw-event=PEER_FOUND(4))
+,,,*Aug 16 16:47:01.675: %REDUNDANCY-5-PEER_MONITOR_EVENT: Active detected a standby insertion (raw-event=PEER_REDUNDANCY_STATE_CHANGE(5))
+,,,"*Aug 16 16:48:58.863: %AAA-3-DROPACCTFAIL: Accounting record dropped, send to server failed: system"
+,,,*Aug 16 16:50:16.184: %IOSXE_OIR-6-INSSPA: SPA inserted in chassis 1 subslot 1/0
+,,,*Aug 16 16:50:18.493: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/1
+,,,*Aug 16 16:50:18.505: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/2
+,,,*Aug 16 16:50:18.510: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/3
+,,,*Aug 16 16:50:18.514: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/4
+,,,*Aug 16 16:50:18.519: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/5
+,,,*Aug 16 16:50:18.524: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/6
+,,,*Aug 16 16:50:18.529: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/7
+,,,*Aug 16 16:50:18.533: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/8
+,,,*Aug 16 16:50:18.538: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/9
+,,,*Aug 16 16:50:18.543: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/10
+,,,*Aug 16 16:50:18.548: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/11
+,,,*Aug 16 16:50:18.552: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/12
+,,,*Aug 16 16:50:18.557: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/13
+,,,*Aug 16 16:50:18.566: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/18
+,,,*Aug 16 16:50:18.572: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/20
+,,,*Aug 16 16:50:18.576: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/21
+,,,*Aug 16 16:50:18.581: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/22
+,,,*Aug 16 16:50:18.586: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/23
+,,,*Aug 16 16:50:18.590: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in TwentyFiveGigE1/0/24
+,,,*Aug 16 16:50:19.104: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in HundredGigE1/0/25
+,,,*Aug 16 16:50:19.109: %TRANSCEIVER-6-INSERTED: Chassis 1 R0/0: iomd: transceiver module inserted in HundredGigE1/0/27
+,,,*Aug 16 16:50:20.731: %SPA_OIR-6-ONLINECARD: SPA (C9500-24Y4C) online in chassis 1 subslot 1/0
+,,,"*Aug 16 16:50:24.880: %TRANSCEIVER-3-NOT_SUPPORTED: Chassis 1 R0/0: iomd: Detected for transceiver module in TwentyFiveGigE1/0/20, module disabled"
+,,,"*Aug 16 16:50:29.578: %LINK-3-UPDOWN: Interface HundredGigE1/0/27, changed state to up"
+,,,"*Aug 16 16:50:30.137: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/1, changed state to up"
+,,,"*Aug 16 16:50:30.150: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,"*Aug 16 16:50:30.165: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/4, changed state to up"
+,,,"*Aug 16 16:50:30.179: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/5, changed state to up"
+,,,"*Aug 16 16:50:30.191: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/6, changed state to up"
+,,,"*Aug 16 16:50:30.206: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/7, changed state to up"
+,,,"*Aug 16 16:50:30.258: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Aug 16 16:50:30.273: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/9, changed state to up"
+,,,"*Aug 16 16:50:30.286: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/10, changed state to up"
+,,,"*Aug 16 16:50:30.301: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/11, changed state to up"
+,,,"*Aug 16 16:50:30.315: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/12, changed state to up"
+,,,"*Aug 16 16:50:30.330: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/18, changed state to up"
+,,,"*Aug 16 16:50:30.343: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to up"
+,,,"*Aug 16 16:50:30.356: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/22, changed state to up"
+,,,"*Aug 16 16:50:30.369: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/23, changed state to up"
+,,,"*Aug 16 16:50:30.578: %LINEPROTO-5-UPDOWN: Line protocol on Interface HundredGigE1/0/27, changed state to up"
+,,,"*Aug 16 16:50:30.634: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/24, changed state to up"
+,,,"*Aug 16 16:50:31.609: %LINK-3-UPDOWN: Interface HundredGigE1/0/25, changed state to up"
+,,,"*Aug 16 16:50:32.149: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/1, changed state to up"
+,,,"*Aug 16 16:50:32.172: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,*Aug 16 16:50:32.179: %PIM-5-DRCHG: DR change from neighbor 0.0.0.0 to 172.16.0.94 on interface Vlan1503
+,,,*Aug 16 16:50:32.179: %PIM-5-DRCHG: DR change from neighbor 0.0.0.0 to 192.168.37.254 on interface Vlan1833
+,,,*Aug 16 16:50:32.179: %PIM-5-DRCHG: DR change from neighbor 0.0.0.0 to 192.168.38.254 on interface Vlan1834
+,,,"*Aug 16 16:50:32.181: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/4, changed state to up"
+,,,"*Aug 16 16:50:32.190: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/5, changed state to up"
+,,,"*Aug 16 16:50:32.226: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/6, changed state to up"
+,,,"*Aug 16 16:50:32.233: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/7, changed state to up"
+,,,"*Aug 16 16:50:32.284: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Aug 16 16:50:32.290: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/9, changed state to up"
+,,,"*Aug 16 16:50:32.297: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/10, changed state to up"
+,,,"*Aug 16 16:50:32.377: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/18, changed state to up"
+,,,"*Aug 16 16:50:33.605: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/24, changed state to up"
+,,,"*Aug 16 16:50:34.234: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1503, changed state to up"
+,,,"*Aug 16 16:50:34.235: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1833, changed state to up"
+,,,"*Aug 16 16:50:34.236: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1834, changed state to up"
+,,,"*Aug 16 16:50:34.236: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2000, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2219, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2319, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2419, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2519, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2619, changed state to up"
+,,,"*Aug 16 16:50:34.240: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2719, changed state to up"
+,,,"*Aug 16 16:50:34.241: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2819, changed state to up"
+,,,"*Aug 16 16:50:34.273: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/23, changed state to up"
+,,,"*Aug 16 16:50:34.317: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan501, changed state to up"
+,,,"*Aug 16 16:50:34.485: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/12, changed state to up"
+,,,"*Aug 16 16:50:34.486: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/11, changed state to up"
+,,,"*Aug 16 16:50:34.487: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/22, changed state to up"
+,,,"*Aug 16 16:50:35.267: %LINK-3-UPDOWN: Interface Port-channel4, changed state to up"
+,,,"*Aug 16 16:50:35.440: %LINK-3-UPDOWN: Interface Port-channel5, changed state to up"
+,,,"*Aug 16 16:50:35.651: %LINEPROTO-5-UPDOWN: Line protocol on Interface HundredGigE1/0/25, changed state to up"
+,,,"*Aug 16 16:50:36.267: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel4, changed state to up"
+,,,"*Aug 16 16:50:36.440: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel5, changed state to up"
+,,,"*Aug 16 16:50:36.631: %LINK-3-UPDOWN: Interface Port-channel1, changed state to up"
+,,,"*Aug 16 16:50:37.630: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to up"
+,,,"*Aug 16 16:50:38.419: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1105, changed state to up"
+,,,*Aug 16 16:50:39.979: %ETC-5-L3DONTBNDL2: Twe1/0/21 suspended: LACP currently not enabled on the remote port.
+,,,*Aug 16 16:51:00.701: %TRANSCEIVER-6-INSERTED: Chassis 2 R0/0: iomd: transceiver module inserted in TwentyFiveGigE2/0/1
+,,,*Aug 16 16:51:01.246: %TRANSCEIVER-6-INSERTED: Chassis 2 R0/0: iomd: transceiver module inserted in HundredGigE2/0/25
+,,,*Aug 16 16:51:01.251: %TRANSCEIVER-6-INSERTED: Chassis 2 R0/0: iomd: transceiver module inserted in HundredGigE2/0/27
+,,,*Aug 16 16:51:02.896: %SPA_OIR-6-ONLINECARD: SPA (C9500-24Y4C) online in chassis 2 subslot 1/0
+,,,"*Aug 16 16:51:06.414: %LINK-3-UPDOWN: Interface HundredGigE2/0/27, changed state to up"
+,,,"*Aug 16 16:51:07.419: %LINEPROTO-5-UPDOWN: Line protocol on Interface HundredGigE2/0/27, changed state to up"
+,,,"*Aug 16 16:51:07.610: %LINK-3-UPDOWN: Interface TwentyFiveGigE2/0/1, changed state to up"
+,,,"*Aug 16 16:51:08.840: %LINK-3-UPDOWN: Interface HundredGigE2/0/25, changed state to up"
+,,,"*Aug 16 16:51:09.617: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE2/0/1, changed state to up"
+,,,"*Aug 16 16:51:12.828: %LINEPROTO-5-UPDOWN: Line protocol on Interface HundredGigE2/0/25, changed state to up"
+,,,*Aug 16 16:52:25.284: %IOSXE_OIR-6-INSCARD: Card (cc) inserted in chassis 1 slot 1
+,,,*Aug 16 16:52:25.284: %IOSXE_OIR-6-ONLINECARD: Card (cc) online in chassis 1 slot 1
+,,,*Aug 16 16:52:25.284: %IOSXE_OIR-6-INSCARD: Card (cc) inserted in chassis 2 slot 1
+,,,*Aug 16 16:52:25.284: %IOSXE_OIR-6-ONLINECARD: Card (cc) online in chassis 2 slot 1
+,,,*Aug 16 16:52:59.730: %HA_CONFIG_SYNC-6-BULK_CFGSYNC_SUCCEED: Bulk Sync succeeded
+,,,*Aug 16 16:53:00.765: %RF-5-RF_TERMINAL_STATE: Terminal state reached for (SSO)
+,,,"*Aug 17 06:21:52.095: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to down"
+,,,"*Aug 17 06:22:14.790: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to up"
+,,,*Aug 17 06:22:24.741: %ETC-5-L3DONTBNDL2: Twe1/0/21 suspended: LACP currently not enabled on the remote port.
+,,,"*Aug 17 06:22:43.491: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to down"
+,,,"*Aug 17 06:22:46.130: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to up"
+,,,*Aug 17 06:22:55.547: %ETC-5-L3DONTBNDL2: Twe1/0/21 suspended: LACP currently not enabled on the remote port.
+,,,"*Aug 17 06:23:14.718: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to down"
+,,,"*Aug 17 06:23:35.400: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/21, changed state to up"
+,,,*Aug 17 06:23:44.123: %ETC-5-L3DONTBNDL2: Twe1/0/21 suspended: LACP currently not enabled on the remote port.
+,,,"*Aug 17 06:24:28.278: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/21, changed state to up"
+,,,"*Aug 17 06:24:29.276: %LINK-3-UPDOWN: Interface Port-channel3, changed state to up"
+,,,"*Aug 17 06:24:30.276: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel3, changed state to up"
+,,,*Aug 17 16:46:21.721: %SMART_LIC-3-EVAL_EXPIRED_WARNING: Evaluation period expired on Jan 14 09:07:59 2022 KSA
+,,,*Aug 18 06:09:51.815: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 09:09:51 KSA Mon Aug 18 2025
+,,,*Aug 18 06:09:58.975: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.13.40 port 0 CLI Request Triggered
+,,,*Aug 18 06:09:59.975: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.13.40 port 514 started - CLI initiated
+,,,*Aug 18 06:10:01.718: %SYS-5-CONFIG_I: Configured from console by naving on vty0 (10.110.5.155)
+,,,*Aug 18 06:10:18.426: %SYS-6-PRIVCFG_ENCRYPT_SUCCESS: Successfully encrypted private config file
+,,,*Aug 18 06:10:20.546: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 18 13:02:54.165: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 16:02:54 KSA Mon Aug 18 2025
+,,,"*Aug 18 13:15:31.192: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 18 13:15:31.192: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 18 13:29:07.164: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 16:29:07 KSA Mon Aug 18 2025
+,,,"*Aug 18 13:37:31.347: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 18 13:37:31.347: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 18 13:54:29.198: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 16:54:29 KSA Mon Aug 18 2025
+,,,"*Aug 18 14:04:21.607: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 18 14:04:21.607: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 18 17:00:39.569: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 172.16.3.191] [localport: 22] at 20:00:39 KSA Mon Aug 18 2025
+,,,"*Aug 18 17:15:55.157: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (172.16.3.191)), user naving"
+,,,*Aug 18 17:15:55.157: %SYS-6-LOGOUT: User naving has exited tty session 2(172.16.3.191)
+,,,*Aug 19 05:56:15.394: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 08:56:15 KSA Tue Aug 19 2025
+,,,"*Aug 19 06:02:26.562: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 19 06:02:26.562: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 19 06:10:14.840: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 09:10:14 KSA Tue Aug 19 2025
+,,,"*Aug 19 06:15:36.690: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 19 06:15:36.690: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 19 13:43:52.915: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: divakard] [Source: 10.110.5.157] [localport: 22] at 16:43:52 KSA Tue Aug 19 2025
+,,,"*Aug 19 13:51:10.305: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.157)), user divakard"
+,,,*Aug 19 13:51:10.305: %SYS-6-LOGOUT: User divakard has exited tty session 2(10.110.5.157)
+,,,*Aug 19 14:43:06.283: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: divakard] [Source: 10.110.5.153] [localport: 22] at 17:43:06 KSA Tue Aug 19 2025
+,,,"*Aug 19 14:59:55.750: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.153)), user divakard"
+,,,*Aug 19 14:59:55.751: %SYS-6-LOGOUT: User divakard has exited tty session 2(10.110.5.153)
+,,,*Aug 19 15:05:23.094: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: nguna] [Source: 10.110.5.153] [localport: 22] at 18:05:23 KSA Tue Aug 19 2025
+,,,*Aug 19 15:09:32.296: %SYS-5-CONFIG_I: Configured from console by nguna on vty0 (10.110.5.153)
+,,,*Aug 19 15:17:33.108: %SYS-5-CONFIG_I: Configured from console by nguna on vty0 (10.110.5.153)
+,,,"*Aug 19 15:19:06.523: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1515, changed state to up"
+,,,*Aug 19 15:19:28.559: %SYS-5-CONFIG_I: Configured from console by nguna on vty0 (10.110.5.153)
+,,,"*Aug 19 15:24:41.960: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.153)), user nguna"
+,,,*Aug 19 15:24:41.960: %SYS-6-LOGOUT: User nguna has exited tty session 2(10.110.5.153)
+,,,*Aug 19 16:43:30.939: %SW_MATM-4-MACFLAP_NOTIF: Host 286b.357a.7cc7 in vlan 2003 is flapping between port Po1 and port Po4
+,,,*Aug 19 16:59:46.674: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: nguna] [Source: 10.110.5.251] [localport: 22] at 19:59:46 KSA Tue Aug 19 2025
+,,,*Aug 19 17:01:05.133: %SYS-5-CONFIG_I: Configured from console by nguna on vty0 (10.110.5.251)
+,,,*Aug 19 17:01:49.482: %SYS-5-CONFIG_I: Configured from console by nguna on vty0 (10.110.5.251)
+,,,"*Aug 19 17:08:57.710: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user nguna"
+,,,*Aug 19 17:08:57.710: %SYS-6-LOGOUT: User nguna has exited tty session 2(10.110.5.251)
+,,,*Aug 19 17:14:50.955: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: nguna] [Source: 10.110.5.251] [localport: 22] at 20:14:50 KSA Tue Aug 19 2025
+,,,"*Aug 19 17:19:57.782: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user nguna"
+,,,*Aug 19 17:19:57.782: %SYS-6-LOGOUT: User nguna has exited tty session 2(10.110.5.251)
+,,,"*Aug 19 20:36:30.679: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Aug 19 20:36:31.698: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Aug 19 20:40:01.019: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,"*Aug 19 20:40:03.033: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,*Aug 20 08:12:21.525: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 11:12:21 KSA Wed Aug 20 2025
+,,,"*Aug 20 08:18:12.340: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 20 08:18:12.341: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 20 08:21:17.139: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 11:21:17 KSA Wed Aug 20 2025
+,,,"*Aug 20 08:33:34.462: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 20 08:33:34.463: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 20 08:40:33.375: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 11:40:33 KSA Wed Aug 20 2025
+,,,"*Aug 20 08:45:50.524: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 20 08:45:50.524: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 20 08:51:53.736: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 11:51:53 KSA Wed Aug 20 2025
+,,,"*Aug 20 08:57:27.587: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.155)), user naving"
+,,,*Aug 20 08:57:27.587: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.155)
+,,,*Aug 20 09:49:05.892: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.155] [localport: 22] at 12:49:05 KSA Wed Aug 20 2025
+,,,"*Aug 20 09:54:10.012: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 3 (10.110.5.155)), user naving"
+,,,*Aug 20 09:54:10.012: %SYS-6-LOGOUT: User naving has exited tty session 3(10.110.5.155)
+,,,"*Aug 23 05:54:57.555: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Aug 23 05:54:57.576: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Aug 23 05:54:58.574: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Aug 23 05:54:58.593: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Aug 23 05:58:30.560: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,"*Aug 23 05:58:30.921: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Aug 23 05:58:32.573: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,"*Aug 23 05:58:32.931: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Aug 23 19:20:35.677: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Aug 23 19:20:36.692: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Aug 23 19:24:13.155: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Aug 23 19:24:15.167: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,*Aug 24 16:46:22.298: %SMART_LIC-3-EVAL_EXPIRED_WARNING: Evaluation period expired on Jan 14 09:07:59 2022 KSA
+,,,*Aug 26 10:03:23.418: %SW_MATM-4-MACFLAP_NOTIF: Host 3ce9.f7af.2161 in vlan 2003 is flapping between port Po1 and port Po4
+,,,*Aug 27 13:45:23.184: %SW_MATM-4-MACFLAP_NOTIF: Host 3c21.9cce.63cd in vlan 2003 is flapping between port Po3 and port Po4
+,,,*Aug 31 16:46:22.870: %SMART_LIC-3-EVAL_EXPIRED_WARNING: Evaluation period expired on Jan 14 09:07:59 2022 KSA
+,,,*Sep  1 08:16:30.077: %SW_MATM-4-MACFLAP_NOTIF: Host 286b.3578.3f25 in vlan 2003 is flapping between port Po1 and port Po3
+,,,"*Sep  2 20:35:07.177: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Sep  2 20:35:08.191: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to down"
+,,,"*Sep  2 20:38:41.184: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,"*Sep  2 20:38:43.195: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/2, changed state to up"
+,,,*Sep  3 13:55:58.685: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 16:55:58 KSA Wed Sep 3 2025
+,,,"*Sep  3 14:02:10.434: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  3 14:02:10.434: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  3 17:23:32.155: %SW_MATM-4-MACFLAP_NOTIF: Host f8ce.075e.30ae in vlan 1519 is flapping between port Po1 and port Twe2/0/1
+,,,"*Sep  6 11:02:28.659: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/6, changed state to down"
+,,,"*Sep  6 11:02:29.672: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/6, changed state to down"
+,,,"*Sep  6 11:06:42.216: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/6, changed state to up"
+,,,"*Sep  6 11:06:44.224: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/6, changed state to up"
+,,,"*Sep  6 19:19:19.667: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Sep  6 19:19:20.683: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to down"
+,,,"*Sep  6 19:22:53.154: %LINK-3-UPDOWN: Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,"*Sep  6 19:22:55.166: %LINEPROTO-5-UPDOWN: Line protocol on Interface TwentyFiveGigE1/0/8, changed state to up"
+,,,*Sep  7 16:46:23.458: %SMART_LIC-3-EVAL_EXPIRED_WARNING: Evaluation period expired on Jan 14 09:07:59 2022 KSA
+,,,*Sep  8 08:44:09.732: %SW_MATM-4-MACFLAP_NOTIF: Host 286b.357d.ff19 in vlan 2003 is flapping between port Po1 and port Twe2/0/1
+,,,*Sep  8 10:38:03.762: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 13:38:03 KSA Mon Sep 8 2025
+,,,"*Sep  8 10:47:13.989: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 10:47:13.989: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  8 11:00:08.570: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 14:00:08 KSA Mon Sep 8 2025
+,,,"*Sep  8 11:09:10.150: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 11:09:10.150: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  8 12:33:59.435: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 15:33:59 KSA Mon Sep 8 2025
+,,,"*Sep  8 12:45:53.868: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 12:45:53.868: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  8 12:46:06.012: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 15:46:06 KSA Mon Sep 8 2025
+,,,"*Sep  8 12:51:16.901: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 12:51:16.901: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  8 16:38:52.842: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 19:38:52 KSA Mon Sep 8 2025
+,,,"*Sep  8 16:44:00.641: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 16:44:00.641: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  8 16:54:37.560: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 19:54:37 KSA Mon Sep 8 2025
+,,,"*Sep  8 16:59:43.815: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  8 16:59:43.815: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  9 06:13:05.263: %SW_MATM-4-MACFLAP_NOTIF: Host 00a5.544d.194e in vlan 2003 is flapping between port Po1 and port Po4
+,,,*Sep  9 07:58:27.290: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 10:58:27 KSA Tue Sep 9 2025
+,,,"*Sep  9 08:03:36.544: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  9 08:03:36.545: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  9 08:07:14.460: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 11:07:14 KSA Tue Sep 9 2025
+,,,"*Sep  9 08:12:36.618: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep  9 08:12:36.618: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep  9 10:40:50.542: %SW_MATM-4-MACFLAP_NOTIF: Host 0072.ee77.ecd2 in vlan 2003 is flapping between port Po1 and port Po3
+,,,*Sep 14 09:15:07.156: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 12:15:07 KSA Sun Sep 14 2025
+,,,*Sep 14 09:21:08.040: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 14 11:35:57.261: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 14:35:57 KSA Sun Sep 14 2025
+,,,"*Sep 14 11:42:19.073: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep 14 11:42:19.073: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 14 11:43:41.467: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 14:43:41 KSA Sun Sep 14 2025
+,,,"*Sep 14 11:48:53.115: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep 14 11:48:53.115: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 14 16:46:24.029: %SMART_LIC-3-EVAL_EXPIRED_WARNING: Evaluation period expired on Jan 14 09:07:59 2022 KSA
+,,,*Sep 15 11:08:18.366: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 14:08:18 KSA Mon Sep 15 2025
+,,,"*Sep 15 11:13:49.852: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep 15 11:13:49.853: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 15 11:57:20.211: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 14:57:20 KSA Mon Sep 15 2025
+,,,"*Sep 15 12:02:39.215: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep 15 12:02:39.215: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 15 12:20:13.822: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 15:20:13 KSA Mon Sep 15 2025
+,,,*Sep 15 12:20:30.814: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 15 12:20:51.814: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: naving] [Source: 10.110.5.251] [localport: 22] at 15:20:51 KSA Mon Sep 15 2025
+,,,"*Sep 15 12:26:08.453: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 2 (10.110.5.251)), user naving"
+,,,*Sep 15 12:26:08.454: %SYS-6-LOGOUT: User naving has exited tty session 2(10.110.5.251)
+,,,*Sep 16 12:40:04.958: %SW_MATM-4-MACFLAP_NOTIF: Host b0a4.6016.d2f3 in vlan 2003 is flapping between port Po4 and port Twe2/0/1
+,,,*Sep 17 06:45:15.427: %SW_MATM-4-MACFLAP_NOTIF: Host 286b.357b.294c in vlan 2003 is flapping between port Po1 and port Po4
+,,,*Sep 17 09:20:44.622: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: divakard] [Source: 10.110.5.251] [localport: 22] at 12:20:44 KSA Wed Sep 17 2025
+,,,RD01AGFLB1R25S01#sh clock
+,,,*12:21:37.057 KSA Wed Sep 17 2025
+,,,RD01AGFLB1R25S01#
