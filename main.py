@@ -1,54 +1,44 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-print("🚀 Telecom Switch Logs Analysis Started...\n")
+print("🚀 Final Anomaly Detection for Switch Logs...\n")
 
-# Load files
+# Load data
 df1 = pd.read_csv("10.1.1.16_Switch_logs.csv")
 df2 = pd.read_csv("10.1.3.17_-_Recent_switch_logs.csv")
-
 df = pd.concat([df1, df2], ignore_index=True)
 
-print(f"✅ Total Logs Loaded: {len(df)}")
-
-# Clean timestamp
 df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
 df = df.dropna(subset=['timestamp'])
 
-print(f"✅ Valid timestamps: {len(df)}")
+print(f"Total Logs: {len(df)}\n")
 
-# === 1. Daily Log Volume Graph ===
-df['date'] = df['timestamp'].dt.date
-daily_logs = df.groupby('date').size()
-
-plt.figure(figsize=(12, 6))
-plt.bar(daily_logs.index, daily_logs.values, color='skyblue')
-plt.title('Daily Log Volume - Switch Logs')
-plt.xlabel('Date')
-plt.ylabel('Number of Logs')
-plt.xticks(rotation=45)
-plt.grid(axis='y')
-plt.tight_layout()
-plt.savefig('daily_log_volume.png', dpi=300)
-print("✅ Graph saved: daily_log_volume.png")
-
-# Save cleaned data for Grafana
-df.to_csv('cleaned_switch_logs.csv', index=False)
-print("✅ Cleaned data saved for Grafana")
-
-# === 4. Anomaly Detection ===
+# Hour-wise log count
 df['hour'] = df['timestamp'].dt.hour
-hourly = df.groupby('hour').size()
+hourly = df.groupby('hour').size().reset_index(name='log_count')
 
-mean_logs = hourly.mean()
-std_logs = hourly.std()
-anomalies = hourly[hourly > mean_logs + 2 * std_logs]
+# === Better Logic for Small Dataset ===
+# Top 20% busiest hours marked as potential anomaly
+threshold = hourly['log_count'].quantile(0.8)   # Top 20%
+anomalies = hourly[hourly['log_count'] >= threshold]
 
-print(f"\n🔍 Anomaly Detection:")
-print(f"High Activity Hours: {list(anomalies.index)}")
-print(f"Total Anomalous Hours: {len(anomalies)}")
+print("🔍 ANOMALY DETECTION RESULTS (Top Busy Hours):")
+print(anomalies.sort_values('log_count', ascending=False))
 
-anomalies.to_csv('anomaly_hours.csv')
-print("✅ Anomaly results saved")
+# Save
+anomalies.to_csv('anomaly_detection_results.csv', index=False)
+print("\n✅ Anomaly results saved!")
 
-print("\n🎉 ALL 4 POINTS COMPLETED SUCCESSFULLY!")
+# Plot
+plt.figure(figsize=(14, 8))
+plt.bar(hourly['hour'], hourly['log_count'], alpha=0.7, label='Normal')
+plt.bar(anomalies['hour'], anomalies['log_count'], color='red', label='High Activity (Anomaly)')
+plt.title('Hourly Log Activity - Anomalies Highlighted')
+plt.xlabel('Hour of Day')
+plt.ylabel('Number of Logs')
+plt.legend()
+plt.grid(axis='y')
+plt.savefig('anomaly_detection_plot.png', dpi=300)
+print("✅ Plot saved: anomaly_detection_plot.png")
+
+print("\n🎉 4th Point Completed Successfully!")
